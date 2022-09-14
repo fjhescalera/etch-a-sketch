@@ -1,0 +1,13 @@
+.container div{
+    background-color: green;
+    border: solid black;
+
+
+}
+.container{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: aquamarine;
+    height: 100rem;
+    width: 100rem;
+}

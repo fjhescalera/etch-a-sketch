@@ -1,2 +1,2 @@
 # etch-a-sketch
-Browser etch-asketch
+Browser version of an etch-a-sketch
