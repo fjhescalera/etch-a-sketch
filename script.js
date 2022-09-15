@@ -6,4 +6,11 @@ function createDiv(numberDivs){
         container.appendChild(div);
     }
 }
-createDiv(5);
+createDiv(64);
+let grid=container.querySelectorAll("div");
+function colorDiv(){
+this.style.backgroundColor="black";
+console.log(this);  
+}
+grid.forEach(div=>div.addEventListener("pointerover",colorDiv.bind(div)));
+
