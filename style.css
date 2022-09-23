@@ -1,17 +1,17 @@
-.container {
-    background-color: green;
-    border: solid 1px grey;
-
-
-}
 .container{
     display:grid;
-    grid-template-columns: repeat(10,50px);
-    grid-template-rows: repeat(10,50px);
+    grid-template-columns: repeat(100,9px);
+    grid-template-rows: repeat(100,9px);
     background-color: aquamarine;
-    height: 500px;
-    width: 500px;
+    height: 900px;
+    width: 900px;
 }
+.container div {
+    border: solid 0.5px grey;
+
+
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -19,4 +19,7 @@ body{
 }
 .on{
     background-color:black;
+}
+button{
+    display: block;
 }
